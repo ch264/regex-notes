@@ -40,8 +40,20 @@ $   matches the end of the string or line
 |  OR 
 
 [abc]   character set. Matches on the things in the brackets
+[abc][b] find all where b is following abc.
 [^abc]  matches anything except ...
 
 
 examples: https://regexr.com/
+
+This regex describes all possible ways of writing an address below:
+
+/^\d{1,7}( |-)?([a-zA-Z|\d])*( [a-zA-Z-]+\.?){1,4} (Rd|St|Cres|Ave)\.?/gm
+
+100 Main Rd
+100A Main St.
+100 Main St
+123-A Main St.
+14-123 Main St
+1234 Mr. Tim-Tam Rd
 
