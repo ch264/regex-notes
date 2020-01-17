@@ -1,0 +1,43 @@
+if you see this inside a pattern inside round or square brackets:
+
+( ) capturing group
+|  OR 
+
+[abc]   character set. Matches on the things in the brackets
+[abc^]  matches anything except ...
+[a-zA-Z] . all upper and lowercase letters. You can specify any range [a-zF-M0-5]
+
+{1}  exact number of matches. comes after a set or group
+{1,} minimum number of matches
+{,5} maximum number of matches
+
+\s  any whitespace character
+\S  any NON whitespace character
+
+\d any digit. same as [0-9]
+\D and NON digit. same as [a-zA-Z0-9]
+
+\w any word character. same as [a-zA-Z0-9_]
+\W any NON word character. same as [^a-zA-Z0-9_]
+
+\b  word boundary
+[\b]  escape sequence for a backspace character
+\B  NON word boundary 
+
+\u0404  four digit unicode hex value for a character
+
+*  0 or more matches
++  1 or more matches
+?  0 or 1 matches
+
+^   matches the start of the string or line
+$   matches the end of the string or line
+
+\  escapes a sequence
+.  match against any character except new line
+
+( ) capturing group
+|  OR 
+
+[abc]   character set.Matches on the things in the brackets
+[abc^]  matches anything except ...
