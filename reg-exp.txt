@@ -39,5 +39,9 @@ $   matches the end of the string or line
 ( ) capturing group
 |  OR 
 
-[abc]   character set.Matches on the things in the brackets
-[abc^]  matches anything except ...
+[abc]   character set. Matches on the things in the brackets
+[^abc]  matches anything except ...
+
+
+examples: https://regexr.com/
+
