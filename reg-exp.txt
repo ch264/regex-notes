@@ -57,3 +57,7 @@ This regex describes all possible ways of writing an address below:
 14-123 Main St
 1234 Mr. Tim-Tam Rd
 
+
+Regex and JavaScript
+let regex = new RegExp(document.getElementById('find).value, 'gmi'); // gmi are the flags for global and multiline and case insensitive. You can change these to the flags you want
+
