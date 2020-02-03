@@ -61,3 +61,9 @@ This regex describes all possible ways of writing an address below:
 Regex and JavaScript
 let regex = new RegExp(document.getElementById('find).value, 'gmi'); // gmi are the flags for global and multiline and case insensitive. You can change these to the flags you want
 
+search in all folders:
+```$ grep -lr "warning: true" .```
+
+Replace with something everywhere in file:
+```>%s/name/“name”/g```
+
