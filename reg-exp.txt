@@ -70,5 +70,10 @@ Replace with something everywhere in file:
 Find and replace across mutliple files 
 ```grep -rl --exclude-dir='.git' matchstring | xargs sed -i 's/matchstring/replacestring/g'```
 
+Basic Format: 
+```grep -rl matchstring somedir/ | xargs sed -i 's/string1/string2/g'```
+Example:
+```grep -rl 'windows' ./ | xargs sed -i 's/windows/linux/g'```
+
 to match all the content between certain delimiters (in this case double quotes)
 [^"]+ 
