@@ -67,3 +67,5 @@ search in all folders:
 Replace with something everywhere in file:
 ```>%s/name/“name”/g```
 
+to match all the content between certain delimiters (in this case double quotes)
+[^"]+ 
