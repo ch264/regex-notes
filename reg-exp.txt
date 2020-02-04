@@ -67,5 +67,8 @@ search in all folders:
 Replace with something everywhere in file:
 ```>%s/name/“name”/g```
 
+Find and replace across mutliple files 
+```grep -rl --exclude-dir='.git' matchstring | xargs sed -i 's/matchstring/replacestring/g'```
+
 to match all the content between certain delimiters (in this case double quotes)
 [^"]+ 
